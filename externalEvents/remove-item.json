@@ -1,0 +1,48 @@
+{
+  "associatedLayout": "GamePlay",
+  "name": "Remove Item",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "inventory[OriginalSlotNumber].Name",
+            "=",
+            "\"Empty\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "inventory[OriginalSlotNumber].Quantity",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "NeedInventoryUpdate",
+            "True",
+            "0"
+          ]
+        }
+      ]
+    }
+  ]
+}

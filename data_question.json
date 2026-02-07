@@ -1,0 +1,36 @@
+[
+    {
+  "id": 1,
+  "code": "Q01",
+  "title": "Bone Color",
+  "target": "Skeleton area",
+  "q": "What color are bones?",
+  "option": ["A", "B"],
+  "textOption": [
+    "White",
+    "Blue"
+  ],
+  "aksi": [
+    "Choose White = die.",
+    "Choose Blue = continue to the next quest, the player is guided with a ! to a group of skeletons."
+  ],
+  "benar": "B"
+},
+{
+  "id": 2,
+  "code": "Q02",
+  "title": "Well Mystery",
+  "target": "Well area",
+  "q": "What is inside the well?",
+  "option": ["A", "B"],
+  "textOption": [
+    "Water",
+    "Fire"
+  ],
+  "aksi": [
+    "Choose Water = die.",
+    "Choose Fire = clue about the well."
+  ],
+  "benar": "B"
+}
+]

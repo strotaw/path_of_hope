@@ -1,0 +1,150 @@
+{
+  "associatedLayout": "GamePlay",
+  "name": "Move InventoryIcon",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "OriginalName",
+            "=",
+            "inventory[OriginalSlotNumber].Name"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "OriginalQuantity",
+            "=",
+            "inventory[OriginalSlotNumber].Quantity"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Old Slot"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "inventory[OriginalSlotNumber].Name",
+                "=",
+                "inventory[InventorySlot.slotNumber].Name"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "inventory[OriginalSlotNumber].Quantity",
+                "=",
+                "inventory[InventorySlot.slotNumber].Quantity"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "New Slot"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "inventory[InventorySlot.slotNumber].Name",
+                "=",
+                "OriginalName"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "inventory[InventorySlot.slotNumber].Quantity",
+                "=",
+                "OriginalQuantity"
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "OriginalName",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "OriginalQuantity",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Update Inventory"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "NeedInventoryUpdate",
+            "True",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "associatedLayout": "GamePlay",
+  "name": "Add Item",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "In Inventory"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "VariableChildCount(inventory)",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "ValidSpaceFound",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "inventory[SlotNumber].Name",
+                        "=",
+                        "Items.ObjectName()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "ValidSpaceFound",
+                        "True",
+                        "Items.Quantity"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "inventory[SlotNumber].Name",
+                        "=",
+                        "Items.ObjectName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory[SlotNumber].Quantity",
+                        "+",
+                        "Items.Quantity"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SlotNumber",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Empty Slot"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "VariableChildCount(inventory)",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "ValidSpaceFound",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "inventory[SlotNumber].Name",
+                        "=",
+                        "\"Empty\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "ValidSpaceFound",
+                        "True",
+                        "Items.Quantity"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "inventory[SlotNumber].Name",
+                        "=",
+                        "Items.ObjectName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inventory[SlotNumber].Quantity",
+                        "+",
+                        "Items.Quantity"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SlotNumber",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ValidSpaceFound",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "NeedInventoryUpdate",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Items",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "ValidSpaceFound",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

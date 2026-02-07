@@ -1,0 +1,132 @@
+{
+  "associatedLayout": "GamePlay",
+  "name": "Update Inventory",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "InventoryIcon",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "VariableChildCount(inventory)",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "inventory[SlotNumber].Name",
+                    "!=",
+                    "\"Empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "InventorySlot",
+                    "slotNumber",
+                    "=",
+                    "SlotNumber"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "InventoryIcon",
+                    "InventorySlot.X()",
+                    "InventorySlot.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InventoryIconDisplay::InventoryIcon::SetName"
+                  },
+                  "parameters": [
+                    "InventoryIcon",
+                    "=",
+                    "inventory[SlotNumber].Name",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InventoryIconDisplay::InventoryIcon::SetQuantity"
+                  },
+                  "parameters": [
+                    "InventoryIcon",
+                    "=",
+                    "inventory[SlotNumber].Quantity",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "InventoryIcon",
+                    "SlotNumber",
+                    "=",
+                    "SlotNumber"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SlotNumber",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "SlotNumber",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}
