@@ -1295,6 +1295,54 @@
         "name": "Group 7.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "NewSprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite17.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1418,6 +1466,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
     }
   ],
   "externalLayouts": []

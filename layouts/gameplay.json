@@ -725,9 +725,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "content": {}
@@ -806,6 +806,9 @@
           "IsCalledManually": false
         },
         {
+          "isFolded": true,
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 90,
@@ -813,12 +816,9 @@
           "customIsometryAngle": 30,
           "deceleration": 800,
           "ignoreDefaultControls": false,
-          "isFolded": true,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "useLegacyTurnBack": false,
           "viewpoint": "TopDown"
         },
