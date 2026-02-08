@@ -103,62 +103,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
@@ -179,22 +123,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite11.png\"}",
-        "name": "NewSprite11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite12",
         "smoothed": false,
         "userAdded": false
       },
@@ -246,30 +174,6 @@
         }
       },
       {
-        "file": "assets/NewSprite13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Shaded Blue Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -292,14 +196,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
           "name": "Wood Bar Border.png"
         }
-      },
-      {
-        "file": "assets/NewSprite16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite16",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "file": "forestgamejam.png",
@@ -346,30 +242,6 @@
         "kind": "image",
         "metadata": "",
         "name": "pyramid building.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "dessert building.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dessert building.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Autumn_tree1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Autumn_tree1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "1 bangunan - pyramid dessert.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1 bangunan - pyramid dessert.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -574,38 +446,6 @@
         "userAdded": false
       },
       {
-        "file": "frame_0005.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0005.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0021.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0021.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0022.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0022.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0023.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0023.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "frame_0006.png",
         "kind": "image",
         "metadata": "",
@@ -734,90 +574,10 @@
         "userAdded": false
       },
       {
-        "file": "pixil-frame-0 (2).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"pixil-frame-0 (2).png\",\"extension\":\".png\"}",
-        "name": "pixil-frame-0 (2).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "tanda_Seru.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tanda_Seru.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "seru.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "seru.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite17",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite18.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_00010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_00010.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0036.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0036.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0037.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0037.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0038.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0038.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0039.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0039.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0040.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0040.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1286,38 +1046,6 @@
         "userAdded": false
       },
       {
-        "file": "frame_00020.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_00020.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0086.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0086.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0087.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0087.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "frame_0088.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_0088.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "roboto-regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -1329,6 +1057,22 @@
         "kind": "image",
         "metadata": "",
         "name": "emas.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slot inventory.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slot inventory.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -1458,6 +1202,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
     }
   ],
   "externalLayouts": []

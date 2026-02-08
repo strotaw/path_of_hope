@@ -55,7 +55,7 @@
           ],
           "animations": [
             {
-              "name": "healing_potion",
+              "name": "kunci",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -112,7 +112,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "mistis_item",
+                      "image": "emas.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
