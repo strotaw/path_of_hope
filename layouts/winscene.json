@@ -210,6 +210,19 @@
             "5",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "win.mp3",
+            "4",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },

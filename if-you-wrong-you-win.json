@@ -1343,6 +1343,46 @@
         "name": "NewSprite17.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "slash.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "slash.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "gameover.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gameover.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "win.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "win.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "game over.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "game over.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

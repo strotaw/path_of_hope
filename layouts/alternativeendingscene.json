@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.28172599320795594,
+    "zoomFactor": 0.27253598967729314,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -35,7 +35,7 @@
       "height": 513,
       "keepRatio": true,
       "layer": "",
-      "name": "You_Lose",
+      "name": "You_re_Wrong",
       "persistentUuid": "b8966017-6e36-4414-91ef-9ac4915e2413",
       "width": 1227,
       "x": 31,
@@ -51,7 +51,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "You_Lose",
+      "name": "You_re_Wrong",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -81,7 +81,7 @@
           "EffectName": ""
         }
       ],
-      "string": "You Lose\n\nThe game will be reset",
+      "string": "You're Wrong\n\nThe game will be reset",
       "font": "roboto-regular.ttf",
       "textAlignment": "center",
       "characterSize": 120,
@@ -104,7 +104,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You Lose\n\nThe game will be reset",
+        "text": "You're Wrong\n\nThe game will be reset",
         "font": "roboto-regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -118,7 +118,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "You_Lose"
+        "objectName": "You_re_Wrong"
       }
     ]
   },
@@ -141,10 +141,23 @@
             "value": "Flash::FlashEffect::Flash"
           },
           "parameters": [
-            "You_Lose",
+            "You_re_Wrong",
             "FlashEffect",
             "3",
             "\"Effect\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "game over.mp3",
+            "4",
+            "",
+            "",
             ""
           ]
         }
