@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33253870912507744,
+    "zoomFactor": 0.4481978045410363,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -70,7 +70,7 @@
       "persistentUuid": "b6d2c979-f31d-449b-a09c-a52dd64bdedd",
       "width": 0,
       "x": 901,
-      "y": 176,
+      "y": 178,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,7 +86,7 @@
       "persistentUuid": "b4c64ba7-45aa-4a3a-be4b-137c02885e36",
       "width": 0,
       "x": 898,
-      "y": 470,
+      "y": 461,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,7 +102,7 @@
       "persistentUuid": "2bdffd0d-544d-4dee-a805-8a982b31f563",
       "width": 0,
       "x": 59,
-      "y": 293,
+      "y": 312,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -112,14 +112,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 705,
-      "keepRatio": true,
+      "height": 507,
       "layer": "setting Layer",
       "name": "setting_background",
       "persistentUuid": "6469d75b-fc04-45ad-91da-8ca3bfb65424",
-      "width": 1025,
-      "x": 133,
-      "y": 14,
+      "width": 380,
+      "x": 28,
+      "y": 129,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,15 +128,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 64,
-      "height": 63,
+      "height": 57,
       "keepRatio": true,
       "layer": "setting Layer",
       "name": "Music_slider",
       "persistentUuid": "c44ac80b-7478-47be-a2f5-02a50d288ee9",
-      "width": 419,
-      "x": 492,
-      "y": 270,
-      "zOrder": 7,
+      "width": 218,
+      "x": 117,
+      "y": 336,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -146,15 +145,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 136,
+      "height": 68,
       "keepRatio": true,
       "layer": "setting Layer",
       "name": "music_bar",
       "persistentUuid": "096d1d9f-7dbd-44f0-95ab-40387209b097",
-      "width": 559,
-      "x": 384,
-      "y": 232,
-      "zOrder": 6,
+      "width": 279,
+      "x": 72,
+      "y": 331,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -163,14 +162,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 136,
-      "keepRatio": true,
+      "height": 68,
       "layer": "setting Layer",
       "name": "sound_bar",
       "persistentUuid": "a43830a7-6893-4acb-a2a0-79736eb6ea46",
-      "width": 559,
-      "x": 384,
-      "y": 436,
+      "width": 279,
+      "x": 72,
+      "y": 444,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -180,13 +178,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 64,
-      "height": 63,
+      "height": 57,
       "layer": "setting Layer",
       "name": "Sound_slider",
       "persistentUuid": "24a86122-12fb-4deb-986a-d1d2c68a747c",
-      "width": 419,
-      "x": 492,
-      "y": 470,
+      "width": 218,
+      "x": 117,
+      "y": 451,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,8 +199,8 @@
       "name": "close_button",
       "persistentUuid": "87d6e38d-7bab-41ce-b395-459fe35735c3",
       "width": 0,
-      "x": 955,
-      "y": 89,
+      "x": 176,
+      "y": 194,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -278,7 +276,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -339,6 +348,16 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM",
@@ -411,6 +430,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM",
           "ShouldCheckHovering": true,
@@ -482,6 +511,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 4,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM",
           "ShouldCheckHovering": true,
@@ -551,7 +590,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 4,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -610,11 +660,23 @@
       "variant": "music",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "LabelMargin": 8,
         "BarLeftPadding": 31,
-        "BarRightPadding": 31
+        "BarRightPadding": 31,
+        "MinValue": 0
       }
     },
     {
@@ -625,7 +687,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 4,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -685,7 +758,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -741,10 +825,21 @@
       "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
       "name": "Sound_slider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "sound",
+      "variant": "music",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "LabelMargin": 8,
         "BarLeftPadding": 31,
@@ -760,6 +855,16 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM",
@@ -864,224 +969,470 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "main menu.mp3",
+            "1",
+            "",
+            "Data.Music + 10",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"setting Layer\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "close_button",
+            "ButtonFSM",
+            "no"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "play_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "button.mp3",
+                "2",
+                "",
+                "Data.Sound + 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GamePlay\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "quit_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "button.mp3",
+                "2",
+                "",
+                "Data.Sound + 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "setting_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "button.mp3",
+                "2",
+                "",
+                "Data.Sound + 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"setting Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "play_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "quit_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "setting_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "close_button",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"setting Layer\""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "close_button",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "button.mp3",
+                "2",
+                "",
+                "Data.Sound + 40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"setting Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "play_button",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "quit_button",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "setting_button",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "close_button",
+                "ButtonFSM",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "Music_slider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Data.Music",
+                "=",
+                "Music_slider.Value()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "Sound_slider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Data.Sound",
+                "=",
+                "Sound_slider.Value()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "ActivateBehavior"
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
           },
           "parameters": [
-            "close_button",
-            "ButtonFSM",
-            "no"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "play_button",
-            "ButtonFSM",
+            "Music_slider",
+            "=",
+            "Data.Music",
             ""
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
           },
-          "parameters": []
-        }
-      ],
-      "actions": [
+          "parameters": [
+            "Sound_slider",
+            "=",
+            "Data.Sound",
+            ""
+          ]
+        },
         {
           "type": {
-            "value": "Scene"
+            "value": "SetMusicChannelVolume"
           },
           "parameters": [
             "",
-            "\"GamePlay\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "quit_button",
-            "ButtonFSM",
-            ""
+            "1",
+            "=",
+            "Data.Music"
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Quit"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "setting_button",
-            "ButtonFSM",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
+            "value": "SetSoundChannelVolume"
           },
           "parameters": [
             "",
-            "\"setting Layer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "play_button",
-            "ButtonFSM",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "quit_button",
-            "ButtonFSM",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "setting_button",
-            "ButtonFSM",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "close_button",
-            "ButtonFSM",
-            "yes"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "close_button",
-            "ButtonFSM",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"setting Layer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "play_button",
-            "ButtonFSM",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "quit_button",
-            "ButtonFSM",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "setting_button",
-            "ButtonFSM",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "close_button",
-            "ButtonFSM",
-            "no"
+            "2",
+            "=",
+            "Data.Sound"
           ]
         }
       ]
@@ -1209,6 +1560,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

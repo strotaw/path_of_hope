@@ -245,15 +245,6 @@
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Items",
-                ""
-              ]
             }
           ]
         }
