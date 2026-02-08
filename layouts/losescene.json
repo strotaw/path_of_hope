@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.3797121001947931,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -150,17 +150,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite12.png",
+                  "image": "NewSprite18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -196,7 +195,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13.png",
+                  "image": "NewSprite19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -232,7 +231,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite14.png",
+                  "image": "NewSprite20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -268,7 +267,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite15.png",
+                  "image": "NewSprite21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -304,7 +303,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite16.png",
+                  "image": "NewSprite22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -340,43 +339,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 85,
-                        "y": 74
-                      },
-                      {
-                        "x": 104,
-                        "y": 74
-                      },
-                      {
-                        "x": 104,
-                        "y": 102
-                      },
-                      {
-                        "x": 85,
-                        "y": 102
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Transparent.png",
+                  "image": "NewSprite23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -494,10 +457,10 @@
           },
           "parameters": [
             "",
-            "game over.mp3",
+            "game over2.mp3",
             "4",
             "",
-            "",
+            "Data.Sound",
             ""
           ]
         },
@@ -507,10 +470,10 @@
           },
           "parameters": [
             "",
-            "slash.ogg",
+            "slash2.ogg",
             "4",
             "",
-            "",
+            "Data.Sound",
             ""
           ]
         },

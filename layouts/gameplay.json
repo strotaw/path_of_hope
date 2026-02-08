@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749989105,
+    "zoomFactor": 0.39251611754883786,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -5042,7 +5042,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "kunci.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5058,20 +5058,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 97,
+                        "y": 75
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 309,
+                        "y": 75
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 309,
+                        "y": 278
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 97,
+                        "y": 278
                       }
                     ]
                   ]
@@ -7599,7 +7599,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7628,7 +7627,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "nextButton",
+                "Next",
                 "ButtonFSM",
                 "yes"
               ]
@@ -8046,7 +8045,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8075,7 +8073,7 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "nextButton",
+                "Next",
                 "ButtonFSM",
                 "yes"
               ]
@@ -9199,6 +9197,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Mission #2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9459,7 +9458,36 @@
                 "=",
                 "-73"
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "piramid",
+                "",
+                "",
+                ""
+              ]
             },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "kunci2",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Scene"
@@ -9927,6 +9955,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "RNG & SPAWN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11073,6 +11102,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack & Attacked",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11577,6 +11607,53 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"CutScene\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Cutscene2\""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"CutScene3\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "nextButton",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

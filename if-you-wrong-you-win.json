@@ -1378,6 +1378,140 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
           "name": "mononoki-Regular.ttf"
         }
+      },
+      {
+        "file": "win2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "win2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/lose/NewSprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\lose\\NewSprite12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/lose/NewSprite13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\lose\\NewSprite13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/lose/NewSprite14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\lose\\NewSprite14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/lose/NewSprite15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\lose\\NewSprite15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/lose/NewSprite16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\lose\\NewSprite16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/lose/NewSprite17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\lose\\NewSprite17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "game over2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "game over2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "slash2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "slash2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kunci.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

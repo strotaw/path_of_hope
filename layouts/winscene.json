@@ -217,10 +217,10 @@
           },
           "parameters": [
             "",
-            "win.mp3",
+            "win2.mp3",
             "4",
-            "",
-            "",
+            "no",
+            "Data.Sound",
             ""
           ]
         }
