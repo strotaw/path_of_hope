@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.419433978275922,
+    "zoomFactor": 0.6040838749989105,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -219,6 +219,16 @@
       "name": "quest",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "sumur",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "buntung",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -382,8 +392,8 @@
       "name": "spawn",
       "persistentUuid": "72006323-6994-4bd8-a6e6-0eeff3a76c10",
       "width": 272,
-      "x": 2106,
-      "y": -1125,
+      "x": 2088,
+      "y": -1117,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -553,22 +563,6 @@
       "width": 0,
       "x": 2645,
       "y": 132,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "enemy",
-      "persistentUuid": "a0662d40-f5c9-4139-b6ab-d33abd28ffb3",
-      "width": 0,
-      "x": 2221,
-      "y": -998,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -8373,6 +8367,16 @@
             },
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "buntung",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -8627,7 +8631,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8736,7 +8739,7 @@
                     "cutScene_Text",
                     "Text",
                     "=",
-                    "\"kill 3 skeletons to get 1 mystical item\""
+                    "\"kill 2 skeletons to get 1 mystical item\""
                   ]
                 },
                 {
@@ -8784,37 +8787,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "cutScene_Text",
-                    "Text",
-                    "=",
-                    "\"after that you will be teleported to a well\nwhen you approached it, you will get the last mystical item\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Next",
-                    "ButtonFSM",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Next2",
-                    "ButtonFSM",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -8850,6 +8822,16 @@
                     "teleport.X()",
                     "=",
                     "teleport.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "buntung",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -9091,6 +9073,18 @@
             },
             {
               "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "TandaSeru",
+                "=",
+                "1156",
+                "=",
+                "-397"
+              ]
+            },
+            {
+              "type": {
                 "value": "TopDownMovementBehavior::IgnoreDefaultControls"
               },
               "parameters": [
@@ -9117,45 +9111,82 @@
                 "no"
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "-294"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "background2",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    "=",
-                    "265"
-                  ]
-                }
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Player",
+                "<=",
+                "-294"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "background2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Arrow",
+                "=",
+                "265"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Player",
+                ">=",
+                "-294"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "background2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Arrow",
+                "=",
+                "0"
               ]
             }
           ]
@@ -9188,12 +9219,31 @@
             },
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "sumur",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Petunjuk\""
+              ]
+            },
             {
               "type": {
                 "value": "Wait"
@@ -9213,6 +9263,37 @@
                 "well.Y()+80",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "sumur",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "TandaSeru",
+                "=",
+                "531",
+                "=",
+                "-468"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Petunjuk\""
+              ]
             }
           ]
         }
@@ -9224,11 +9305,37 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Mission #3",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "collectible",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Arrow",
+                "=",
+                "265"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -9251,6 +9358,16 @@
                 "NPC3",
                 "50",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "buntung",
+                "=",
+                "1"
               ]
             }
           ],
@@ -9310,51 +9427,50 @@
                 "kunci",
                 ""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "Distance"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "Player",
-                "piramid",
-                "50",
+                "TopDownMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "2239",
+                "=",
+                "-73"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"WinScene\"",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "collectible",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "kunci2",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
-          ],
-          "actions": []
+          ]
         }
       ],
       "parameters": []
@@ -9486,6 +9602,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Inventory",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9559,6 +9676,7 @@
           "comment": "Pick Up Items"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9598,6 +9716,7 @@
           "comment": "Update Inventory"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9672,6 +9791,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9699,6 +9819,7 @@
               "comment": "Drop To gamescene"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9770,6 +9891,7 @@
               "comment": "Drop into inventory slot"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9805,7 +9927,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "RNG & SPAWN",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10030,7 +10151,7 @@
               "parameters": [
                 "kill",
                 "=",
-                "3"
+                "2"
               ]
             },
             {
@@ -10048,8 +10169,8 @@
               "parameters": [
                 "",
                 "mistis_item",
-                "enemy.X()+50",
-                "enemy.Y()+50",
+                "1991",
+                "-73",
                 ""
               ]
             }
@@ -10952,7 +11073,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack & Attacked",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11406,6 +11526,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Collectible Items",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
