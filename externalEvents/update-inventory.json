@@ -61,9 +61,9 @@
                   "parameters": [
                     "",
                     "InventoryIcon",
-                    "InventorySlot.X()",
-                    "InventorySlot.Y()",
-                    ""
+                    "InventorySlot.X()-30",
+                    "InventorySlot.Y()-90",
+                    "\"UI\""
                   ]
                 },
                 {

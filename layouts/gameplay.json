@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4194339782759146,
+    "zoomFactor": 0.36732575450588956,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -688,6 +688,22 @@
       "x": 492,
       "y": 524,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mistis_item",
+      "persistentUuid": "e5d64e1c-6bc4-4322-9310-246ac3eb28d4",
+      "width": 0,
+      "x": 110,
+      "y": 250,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
