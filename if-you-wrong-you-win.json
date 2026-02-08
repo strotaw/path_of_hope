@@ -992,7 +992,7 @@
       {
         "file": "frame_0080.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"frame_0080.png\",\"extension\":\".png\"}",
         "name": "frame_0080.png",
         "smoothed": false,
         "userAdded": false
@@ -1000,7 +1000,7 @@
       {
         "file": "frame_0081.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"frame_0081.png\",\"extension\":\".png\"}",
         "name": "frame_0081.png",
         "smoothed": false,
         "userAdded": false
@@ -1008,7 +1008,7 @@
       {
         "file": "frame_0082.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"frame_0082.png\",\"extension\":\".png\"}",
         "name": "frame_0082.png",
         "smoothed": false,
         "userAdded": false
@@ -1075,6 +1075,226 @@
         "name": "slot inventory.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/NPC/aadlah/animations/breathing-idle/south/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\NPC\\aadlah\\animations\\breathing-idle\\south\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/NPC/aadlah/animations/breathing-idle/south/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\NPC\\aadlah\\animations\\breathing-idle\\south\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/NPC/aadlah/animations/breathing-idle/south/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\NPC\\aadlah\\animations\\breathing-idle\\south\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../tilemaps/NPC/aadlah/animations/breathing-idle/south/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\tilemaps\\NPC\\aadlah\\animations\\breathing-idle\\south\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_00021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_00021.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_0089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0089.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_0090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0090.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_0091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0091.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_00022.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_0092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0092.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_0093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0093.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_0094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_0094.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "setting (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "setting (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
+      },
+      {
+        "file": "Ellipse 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ellipse 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Line 2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Line 2.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Line 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 7.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1097,10 +1317,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/cutscene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/gameplay"
     },
     {
@@ -1118,18 +1334,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditscene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/settingscene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene2"
     }
   ],
   "externalEvents": [
@@ -1148,6 +1352,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/move-inventoryicon"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bgm"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -1206,6 +1414,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
     }
   ],
   "externalLayouts": []
